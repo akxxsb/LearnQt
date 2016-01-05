@@ -200,7 +200,6 @@ void MainWindow::evaluactionClicked()
         return;
         break;
     }
-    qDebug()<<lastNumber<<" "<<currentNumber<<" ";
     case AdditionFlag:
     {
         currentNumber = QString::number(lastNumber.toDouble()+currentNumber.toDouble());
